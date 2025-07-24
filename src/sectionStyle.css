@@ -22,7 +22,7 @@ img{
     width: 80%;
     height:450px;
     background: rgba(255, 255, 255, 0.1); 
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(175px);
     margin-top: 50px;
     border-radius: 12px;
     overflow: hidden;
