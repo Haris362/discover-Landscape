@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding: 13px 18px;
+    background-image: linear-gradient(-35deg,rgb(7, 7, 6),rgb(20, 20, 20));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(37, 157, 255);
+    transition: 0.2s all ease;
+    cursor: pointer;
+}
+.logo:hover{
+    scale: 1.060;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #259dff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color:rgb(5, 117, 209);
+}
+.nav-linkhover::before{
+    content: "dsf";
+}
